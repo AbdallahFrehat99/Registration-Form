@@ -3,44 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
     <form action="">
         <h1>Registration Form</h1>
         <div>
             <label for="f_name">Fist Name:*</label>
-            <input type="text">
+            <input type="text" id="f_name">
         </div>
         <div>
             <label for="l_name">Last Name:*</label>
-            <input type="text">
+            <input type="text" id="l_name">
         </div>
         <div>
             <label for="email">Email:*</label>
-            <input type="email">
+            <input type="email" id="email">
         </div>
         <div>
             <label for="pwd">Password:*</label>
-            <input type="password">
+            <input type="password" id="pwd">
         </div>
         <div>
             <label for="confpwd">Confirm Password:*</label>
-            <input type="password">
+            <input type="password" id="confpwd">
         </div>
         <div>
             <label for="DOB">Birthday:</label>
-            <input type="date">
+            <input type="date" id="DOB">
         </div>
         <div>
             <p>Gender Identity: </p>
-            <input type="radio" name="gender" >
+            <input type="radio" id="male" name="gender" >
             <label for="male">Male</label>
-            <input type="radio" name="gender" >
+            <input type="radio" id="female" name="gender" >
             <label for="female">Female</label>
-            <input type="radio" name="gender" >
+            <input type="radio" id="non-binary" name="gender" >
             <label for="non-binary">Non-Binary</label>
-            <input type="radio" name="gender" >
+            <input type="radio" id="not-to-answer" name="gender" >
             <label for="not-to-answer">I prefer not to answer</label>
         </div>
         <div>
@@ -49,14 +49,14 @@
         </div>
         <div>
             <label for="lang">Favorate Language: </label>
-            <select name="lang">
+            <select name="lang" id="lang">
                 <option value="js">JavaScript</option>
                 <option value="java">Java</option>
                 <option value="c++">C++</option>
             </select>
         </div>
         <div>
-            <input type="checkbox" name="email-updates">
+            <input type="checkbox" id="email-updates">
             <label for="email-updates"> Yes, I would like to receive periodic email updates</label>
         </div>
         <div>
